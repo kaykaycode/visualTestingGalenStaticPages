@@ -1,0 +1,1 @@
+galen dump --url https://www.google.com --size 1080x720 --export dumps %date% GooglePage.gspec

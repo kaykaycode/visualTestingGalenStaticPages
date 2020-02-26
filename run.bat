@@ -1,0 +1,1 @@
+galen check --url https://www.google.com --size 360x640 --htmlreport reports --config galen.config GooglePage.gspec

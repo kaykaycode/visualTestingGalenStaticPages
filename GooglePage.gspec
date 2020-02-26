@@ -1,0 +1,12 @@
+@objects
+    gSearchButton       xpath   (//input[@name='btnK'])[2]
+    gIamFeelingBetter   xpath   (//input[@name='btnI'])[2]
+    googleLogoImage     xpath   //img[@alt='Google']
+
+= Button Layout Test =
+    gSearchButton:
+        right-of gIamFeelingBetter 12px
+
+= Google Image Comparison Test =
+    googleLogoImage:
+        image file ./dumps/objects/googleLogoImage.png
